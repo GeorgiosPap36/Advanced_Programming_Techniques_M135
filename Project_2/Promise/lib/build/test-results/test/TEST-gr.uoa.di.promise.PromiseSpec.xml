@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gr.uoa.di.promise.PromiseSpec" tests="16" skipped="0" failures="0" errors="0" timestamp="2023-01-22T16:20:14" hostname="DESKTOP-U043C6E" time="1.833">
+  <properties/>
+  <testcase name="01-Promise constructor works correctly with then" classname="gr.uoa.di.promise.PromiseSpec" time="0.394"/>
+  <testcase name="02-Promise constructor works correctly with catchError" classname="gr.uoa.di.promise.PromiseSpec" time="0.121"/>
+  <testcase name="03-Promise constructor works correctly with andFinally on success" classname="gr.uoa.di.promise.PromiseSpec" time="0.012"/>
+  <testcase name="04-Promise constructor works correctly with andFinally on failure" classname="gr.uoa.di.promise.PromiseSpec" time="0.005"/>
+  <testcase name="05-Promise.resolve(value) works correctly with then" classname="gr.uoa.di.promise.PromiseSpec" time="0.004"/>
+  <testcase name="06-Promise.resolve(value) works correctly with andFinally" classname="gr.uoa.di.promise.PromiseSpec" time="0.001"/>
+  <testcase name="07-Promise.reject(error) works correctly with catchError" classname="gr.uoa.di.promise.PromiseSpec" time="0.002"/>
+  <testcase name="08-Promise.reject(error) works correctly with andFinally" classname="gr.uoa.di.promise.PromiseSpec" time="0.001"/>
+  <testcase name="09-Promise chaining works correctly" classname="gr.uoa.di.promise.PromiseSpec" time="0.147"/>
+  <testcase name="10-Multiple thens work correctly" classname="gr.uoa.di.promise.PromiseSpec" time="0.107"/>
+  <testcase name="11-Promise.all() works correctly when one rejects" classname="gr.uoa.di.promise.PromiseSpec" time="0.004"/>
+  <testcase name="12-Promise.any() works correctly when a promise fulfills" classname="gr.uoa.di.promise.PromiseSpec" time="0.004"/>
+  <testcase name="13-Promise.all() works correctly when all fulfill" classname="gr.uoa.di.promise.PromiseSpec" time="0.002"/>
+  <testcase name="14-Promise.allSettled() works correctly" classname="gr.uoa.di.promise.PromiseSpec" time="0.014"/>
+  <testcase name="15-Promise.race() works correctly" classname="gr.uoa.di.promise.PromiseSpec" time="0.004"/>
+  <testcase name="16-Advanced scenario works correctly" classname="gr.uoa.di.promise.PromiseSpec" time="1.005"/>
+  <system-out><![CDATA[Delayed value resolves with DONE
+Delayed error rejects with java.lang.RuntimeException: ERROR
+Delayed value resolves with DONE
+Delayed value resolves with DONE
+Delayed error rejects with java.lang.RuntimeException: Failed
+Delayed value resolves with DONE
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+"Delayed value resolves with DONE
+>Delayed error rejects with java.lang.RuntimeException: ERROR
+
+"Delayed value resolves with DONE
+"Delayed value resolves with DONE
+?Delayed error rejects with java.lang.RuntimeException: Failed
+"Delayed value resolves with DONE
